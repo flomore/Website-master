@@ -35,3 +35,45 @@ h1 {
 .navbar-nav:hover {
   color: black
 }
+
+.btn-lg {
+ padding: 10px;
+ justify-content: center;
+ width: 150px;
+ height: 60px;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ background-color: #8D19D0 !important;
+ font-style: Helvetica;
+ cursor: grab;
+ margin: auto;
+}
+
+#slideshow {
+    margin: 100px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    bor
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.img {
+    position: center;
+    float: center;
+    width:  500px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin: auto;
+}
