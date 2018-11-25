@@ -18,8 +18,8 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 1500px;
-  height: 1000px;
+  width: 1800px;
+  height: 700px;
 }
 
 .btn-default {
@@ -42,15 +42,14 @@ h1 {
 .btn-lg {
  padding: 10px;
  justify-content: center;
- width: 150px;
- height: 60px;
- display: inline-block;
  font-size: 16px;
- margin: -50px;
  background-color: #8D19D0 !important;
  font-style: Helvetica;
  cursor: grab;
  margin: auto;
+ width: 30%;
+ margin-left: 40%;
+ margin-right: 40%;
 }
 
 #slideshow {
@@ -59,7 +58,6 @@ h1 {
     width: 240px;
     height: 240px;
     padding: 10px;
-    bor
 }
 
 #slideshow > div {
@@ -71,12 +69,8 @@ h1 {
 }
 
 .img {
-    position: center;
-    float: center;
-    width:  500px;
+    width: 500px;
     height: 300px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-    margin: auto;
+    background-position: center;
+    background-repeat: repeat;
 }
